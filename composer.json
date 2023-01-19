@@ -1,0 +1,23 @@
+{
+  "name": "yago/app-salon_php_mvc_js_sass",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Yago\\AppSalonPhpMvcJsSass\\": "src/",
+      "MVC\\": "./",
+      "Controllers\\": "./controllers",
+      "Model\\": "./models",
+      "Classes\\": "./classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "Wilson Yago Gomez",
+      "email": "kyowduna@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.7",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}
